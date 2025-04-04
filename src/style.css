@@ -1,7 +1,7 @@
 html {
   --text-color: #00acdc;
 
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
 
 body {
@@ -23,13 +23,13 @@ body {
 .nav {
   display: flex;
   flex-direction: row;
-  height: 60px;
   margin-right: 50px;
 }
 
 .ul-list {
   display: flex;
   align-items: center;
+  margin: 0;
   padding: 0;
 }
 
@@ -44,6 +44,8 @@ body {
 
 .nav-link {
   display: flex;
+
+  height: 60px;
 
   font-size: 12px;
   line-height: 60px;
